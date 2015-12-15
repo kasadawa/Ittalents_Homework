@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Add Employee</title>
+	</head>
+	<body>
+		<h1 >Add Employee</h1>
+
+		<form>
+			<table>
+			<tr>
+				<td>First name: </td>
+				<td><input type="text" name="firstname" size="12" value="John"></td>
+			</tr>
+			<tr>
+				<td>Last name: </td>
+				<td><input type="text" name="lastname"  size="12" value="Wayne"></td>
+			</tr>
+
+			<tr>
+				<td>Title: </td>
+				<td><input type="text" name="title" value ="Sales Representative" ></td>
+			</tr>
+
+			<tr>
+				<td>Title of Courtesy: </td>
+				<td>
+					<input type="radio" name="cour" value="Dr.">Dr.
+					<input type="radio" name="cour" value="Mr." checked>Mr.
+					<input type="radio" name="cour" value="Mrs.">Mrs.
+					<input type="radio" name="cour" value="Ms.">Ms.
+				</td>
+			</tr>
+
+			<tr>
+				<td>Birth date: </td>
+				<td><input type="date" name="birth" ></td>
+			</tr>
+
+			<tr>
+				<td>Hire date: </td>
+				<td><input type="date" name="hire" ></td>
+			</tr>
+			
+			<tr>
+				<td>Address: </td>
+				<td><input type="text" name="address" size="25" value="1 Cowboy Lane"></td>
+			</tr>
+			 
+			 <tr>
+				<td>City: </td>
+				<td><input type="text" name="city" value= "Winterset"></td>
+			</tr>
+
+			<tr>
+				<td>Region: </td>
+				<td><input type="text" name="region" size ="2" value="IA" ></td>
+			</tr>
+
+
+			<tr>
+				<td>Postal Code: </td>
+				<td><input type="number" min="0" max="9999" size="4" name="postal" value="3273"></td>
+			</tr>
+
+			<tr>
+				<td>Country: </td>
+				<td><input type="text" name="country" value="USA"></td>
+			</tr>
+
+
+			<tr>
+				<td>Home Phone: </td>
+				<td><input type="text" name="phone" value="213-321-435" ></td>
+			</tr>
+
+
+			<tr>
+				<td>Extension: </td>
+				<td><input type="number" name="extension" min="0" max="9999" size="4" value="1212"></td>
+			</tr>
+
+			<tr>
+				<td>Notes: </td>
+				
+			</tr>
+
+			<tr>
+				<td colspan="2"><textarea name="Notes" rows ="4" cols = "35" >Before Joining</textarea></td>
+			</tr>
+
+			<tr>
+				<td>Manager: </td>
+				<td>
+					<select>
+						  <option value="first">Andrew Fuller</option>
+						  <option value="second">Saab</option>
+						  <option value="third">Fiat</option>
+						  <option value="fourth">Audi</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Password: </td>
+				<td><input type="password" size="12" name="password" value="123123" ></td>
+			</tr>
+
+			<tr>
+				<td>Repeat Password: </td>
+				<td><input type="password" size="12" name="password" value="1231324"></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" value="Add Employee" ></td>
+			</tr>
+
+
+			</table>
+		</form>
+	</body>
+</html>

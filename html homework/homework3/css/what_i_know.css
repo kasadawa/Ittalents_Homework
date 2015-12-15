@@ -1,0 +1,40 @@
+body {
+	background-color: #B1D864;
+}
+#header{
+	width: 1920px;
+	height: 100px;
+	text-align: center;
+}
+#container {
+	width: 1920px;
+	margin: 0 auto;	
+}
+.hyperlink{
+	vertical-align: center;  
+	text-align: center; 
+	width: 100%;
+}
+td>a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Slabo 27px',serif;
+	color: black;
+}
+p{
+	font-size: 2em;
+}
+.score,.score th,.score td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+.score th {
+	padding: 15px;
+	width: 200px;
+}
+
+.table{
+	padding-top: 20px;
+	padding-left: 40%; 
+}
