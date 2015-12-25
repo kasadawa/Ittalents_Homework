@@ -1,0 +1,61 @@
+body{
+
+}
+#container{
+    width: 1700px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    min-height: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+h1{
+    color:white;
+    margin: 0;
+}
+
+article{
+    width: 90%;
+    min-height: 200px;
+    float: left;
+    margin-left: 20px;
+}
+article > article {
+
+}
+article>header {
+    background-color: green;
+    margin-left: 0px;
+    width: 100%;
+    min-height: 20px;
+}
+
+
+
+p{
+    font-weight:bold ;
+}
+
+.space{
+    height: 20px;
+    margin-top: 10px;
+}
+.upper{
+    margin-top: 20px;
+    color:white;
+    background-color: green;
+}
+.main{
+    margin-left: 0px;
+    width: 100%;
+    min-height: 200px;
+    background-color: beige;
+    border: 1px solid green;
+
+}

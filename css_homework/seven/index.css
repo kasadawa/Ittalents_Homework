@@ -1,0 +1,26 @@
+img {
+    width: auto;
+    height: auto;
+    float: left;
+}
+.ball {
+    float: left;
+
+    border-radius: 5px;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    margin-top: 116px;
+    margin-left: 108px;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-iteration-count: 3;*/
+    animation-direction: normal;
+}
+
+
+@keyframes example{
+    from { transform: rotate(0deg) translateX(70px) rotate(0deg); }
+    to   { transform: rotate(1080deg) translateX(72px) rotate(-1080deg); }
+}

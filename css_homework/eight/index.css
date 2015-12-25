@@ -1,0 +1,36 @@
+/*.movie{*/
+    /*color:white;*/
+    /*font-size:50px;*/
+    /*!*float: left;*!*/
+/*}*/
+
+
+
+/*.collapse.navbar-collapse.down_bar{*/
+    /*min-height: 70px;*/
+    /*background-color: rgba(247, 58, 76, 1);*/
+    /*margin-top: 10%;*/
+/*}*/
+
+/*.nav.navbar-nav.navbar-center.down > li > a{*/
+    /*color:white;*/
+/*}*/
+/*.navbar-toggle{*/
+    /*!*float:left;*!*/
+/*}*/
+
+
+/*ul li {*/
+    /*list-style-type: none;*/
+/*}*/
+/*/*/
+/**div.col-sm-2.sidenav{*!*/
+    /*padding-left: 40%;*/
+    /*width: auto;*/
+    /*float: none;*/
+/*}*/
+
+.row.cd{
+    background-color: white;
+    padding-left: 10px;
+}

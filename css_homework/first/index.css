@@ -1,0 +1,44 @@
+#all{
+     width: 1700px;
+     margin: 0 auto;
+ }
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #009999;
+
+}
+#all > section > * {
+
+    float: left;
+    min-height: 500px;
+    margin-top: 10px;
+}
+#all > section > article{
+    width: 60%;
+    background-color: green;
+
+}
+#all > section > aside{
+    width: 20%;
+}
+
+footer{
+    width: 29.706%;
+    min-height:20px;
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#footerLeft{
+    background-color: pink;
+}
+#footerRight{
+
+    background-color: blue;
+}
+.side{
+    width: 20%;
+    margin: 0 0 0 0;
+}
